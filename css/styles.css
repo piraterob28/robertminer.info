@@ -10540,6 +10540,7 @@ section.resume-section .resume-section-content {
 .company-info {
   width: 100%;
   text-align: center;
+  bottom: 70px;
 }
 
 .tagline {
@@ -10549,7 +10550,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 960px) {
   .company-info {
     position: relative;
-    bottom: 70px;
+
     left: 120px;
   }
   .tagline {
