@@ -10531,25 +10531,34 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
-.company-info {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  bottom: 70px;
-  left: 120px;
-}
-
 .company-info h1 {
-  font-size: 15rem;
+  font-size: 5rem;
   position: relative;
   bottom: 80px;
 }
 
+.company-info {
+  width: 100%;
+  text-align: center;
+}
+
 .tagline {
   text-align: center;
-  position: relative;
-  left: 120px;
+}
+
+@media (min-width: 960px) {
+  .company-info {
+    position: relative;
+    bottom: 70px;
+    left: 120px;
+  }
+  .tagline {
+    position: relative;
+    left: 120px;
+  }
+  .company-info h1 {
+    font-size: 15rem;
+  }
 }
 
 #hello {
