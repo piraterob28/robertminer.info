@@ -10551,3 +10551,7 @@ section.resume-section .resume-section-content {
   position: relative;
   left: 120px;
 }
+
+#hello {
+  display: none;
+}
