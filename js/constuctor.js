@@ -1,6 +1,39 @@
 window.onload = function() {
-    // alert("the URL of this page is: " + window.location.pathname);
-    if (window.location.pathname.includes("liiingo")){
+    // // alert("the URL of this page is: " + window.location.pathname);
+    // if (window.location.pathname.includes("rober")){
+    //     document.getElementById("hello").style.display = "flex";
+        
+
+    // }
+    const companyInfo = {
+        liiingo: {
+            name: "Liiingo",
+            image: "assets/img/Liiingo-logo_gradient.png",
+            position: "JR. SOFTWARE DEVELOPER!", 
+            tagLine: "developer that is interested in growing themselves and their skillset just as fast as they possibly can."
+        },
+        scentsy: {
+            name: "Scentsy",
+            image: "assets/img/scentsy_logo_header.svg",
+            position: "Entry Level Software Developer",
+            tagLine: "developer with a lot of go getter attitude."
+        }
+        };
+
+    const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
+    
+    const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+
+    if (companyResponse in companyInfo){
         document.getElementById("hello").style.display = "flex";
+
+        function company_render({name, image, position, tagLine}) {
+            document.getElementById("company-name").innerHTML=name;
+            document.getElementById("company-image").src=image;
+            document.getElementById("position").innerHTML=position;
+            document.getElementById("tagLine").innerHTML=tagLine;
+        }
+
+        company_render(companyInfo[companyResponse]);
     }
-  };
+  }
