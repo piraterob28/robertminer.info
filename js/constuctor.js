@@ -10,13 +10,13 @@ window.onload = function() {
             name: "Liiingo",
             image: "assets/img/Liiingo-logo_gradient.png",
             position: "JR. SOFTWARE DEVELOPER!", 
-            tagLine: "developer that is interested in growing themselves and their skillset just as fast as they possibly can."
+            tagLine: "I saw that you were looking for a developer that is interested in growing themselves and their skillset just as fast as they possibly can. I believe I could be that developer!"
         },
         scentsy: {
             name: "Scentsy",
             image: "assets/img/scentsy_logo_header.svg",
             position: "Entry Level Software Developer",
-            tagLine: "developer with a lot of go getter attitude."
+            tagLine: "I saw that you were looking for a developer with a lot of go getter attitude. I believe I could be that developer!"
         }
         };
 
