@@ -10547,10 +10547,13 @@ section.resume-section .resume-section-content {
   text-align: center;
 }
 
+#company-image {
+  margin-bottom: 0px;
+}
+
 @media (min-width: 960px) {
   .company-info {
     position: relative;
-
     left: 120px;
   }
   .tagline {
@@ -10559,6 +10562,9 @@ section.resume-section .resume-section-content {
   }
   .company-info h1 {
     font-size: 15rem;
+  }
+  #company-image {
+    margin-bottom: 15px;
   }
 }
 
