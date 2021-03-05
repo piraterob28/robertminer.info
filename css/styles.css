@@ -10549,6 +10549,7 @@ section.resume-section .resume-section-content {
 
 #company-image {
   margin-bottom: 50px;
+  width: 50vw;
 }
 
 @media (min-width: 960px) {
@@ -10565,6 +10566,7 @@ section.resume-section .resume-section-content {
   }
   #company-image {
     margin-bottom: 0px;
+    width: 20vw;
   }
 }
 
