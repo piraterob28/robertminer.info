@@ -19,7 +19,7 @@ window.onload = function() {
     const companyResponse = getLastItem(window.location.pathname).toLowerCase();
 
     if (companyResponse in companyInfo){
-        document.getElementById("hello").style.display = "flex";
+        document.getElementsByClassName("hello").style.display = "flex";
 
         function company_render({name, image, position, tagLine}) {
             document.getElementById("company-name").innerHTML=name;
