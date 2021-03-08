@@ -16,8 +16,8 @@ window.onload = function() {
 
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
-    // const companyResponse = getLastItem(window.location.pathname).toLowerCase();
-    const companyResponse = getLastItem(window.location.href).toLowerCase();
+    const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+    // const companyResponse = getLastItem(window.location.href).toLowerCase();
 
     if (companyResponse in companyInfo){
         $("#hello").css("display", "flex");
