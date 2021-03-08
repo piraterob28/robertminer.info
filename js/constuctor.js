@@ -9,8 +9,8 @@ window.onload = function() {
         scentsy: {
             name: "Scentsy",
             image: "assets/img/scentsy_logo_header.svg",
-            position: "Entry Level Software Developer",
-            tagLine: "I saw that you were looking for a developer with a lot of go getter attitude. I believe I could be that developer!"
+            position: "Software Development Engineer in Test!",
+            tagLine: "I saw that you were looking for an enginner to enhance and maintain your automated test framework and QA processes to ensure the delivery of a quality business application software product. I believe I could be that developer!"
         }
         };
 
