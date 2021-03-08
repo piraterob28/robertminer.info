@@ -22,6 +22,7 @@ window.onload = function() {
         document.getElementById("hello").style.display = "flex";
         document.getElementById("hello-anchor").style.display = "block";
         document.getElementById("hello-anchor").className = "nav-link js-scroll-trigger active";
+        document.getElementById("about-anchor").className = "nav-link js-scroll-trigger";
 
         function company_render({name, image, position, tagLine}) {
             document.getElementById("company-name").innerHTML=name;
