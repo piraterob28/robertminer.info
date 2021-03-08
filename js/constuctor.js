@@ -29,6 +29,12 @@ window.onload = function() {
             image: "assets/img/4MILE_logo.png",
             position: "Junior Software Engineer!",
             tagLine: "I saw that you were seeking an engineer looking for opportunities to develop their technical, leadership, and business skills. I believe I could be that developer!"
+        }, 
+        marketerhire: {
+            name: "MarketerHire",
+            image: "assets/img/marketerhire_logo.png",
+            position: "Junior Developer!",
+            tagLine: "I saw that you were seeking an Integrations Developer, that will be assisting your tech team in maintaining, building, and conceptualizing internal automations and workflows. I believe I could be that developer!"
         }
     };
 
