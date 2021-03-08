@@ -10571,6 +10571,12 @@ section.resume-section .resume-section-content {
   }
 }
 
-.hello {
+#hello {
   display: none;
 }
+
+#hello-anchor {
+  display:none;
+}
+
+
