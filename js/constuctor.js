@@ -17,13 +17,11 @@ window.onload = function() {
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
     const companyResponse = getLastItem(window.location.pathname).toLowerCase();
-    // const companyResponse = getLastItem(window.location.href).toLowerCase();
-
+    
     if (companyResponse in companyInfo){
         $("#hello").css("display", "flex");
         $("#hello-li").attr("style","");
         
-
         function company_render({name, image, position, tagLine}) {
             $("#hello-anchor").addClass("active");
             $("#about-anchor").removeClass("active");
@@ -32,7 +30,6 @@ window.onload = function() {
             $("#position").append(position);
             $("#tagLine").append(tagLine);
         }
-
         company_render(companyInfo[companyResponse]);
     } else {
         $("#about-anchor").addClass("active");
