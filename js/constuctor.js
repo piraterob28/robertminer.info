@@ -20,7 +20,7 @@ window.onload = function() {
 
     if (companyResponse in companyInfo){
         document.getElementById("hello").style.display = "flex";
-        document.getElementById("hello-li").removeAttribute = ("sytle");
+        document.getElementById("hello-li").removeAttribute = ("style");
         document.getElementById("hello-anchor").className = "nav-link js-scroll-trigger active";
         document.getElementById("about-anchor").className = "nav-link js-scroll-trigger";
 
