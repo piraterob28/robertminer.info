@@ -10554,14 +10554,14 @@ section.resume-section .resume-section-content {
 }
 
 @media (min-width: 960px) {
-  .company-info {
+  /* .company-info {
     position: relative;
     left: 120px;
-  }
-  .tagline {
+  } */
+  /* .tagline {
     position: relative;
     left: 120px;
-  }
+  } */
   .company-info h1 {
     font-size: 15rem;
   }
@@ -10572,5 +10572,5 @@ section.resume-section .resume-section-content {
 }
 
 #hello {
-  display: none;
+  display: flex;
 }
