@@ -10575,6 +10575,6 @@ section.resume-section .resume-section-content {
   display: none;
 }
 
-li #hello-anchor {
+.#hello-li {
   display: none;
 }
