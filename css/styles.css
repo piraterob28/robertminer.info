@@ -10554,23 +10554,15 @@ section.resume-section .resume-section-content {
 }
 
 @media (min-width: 960px) {
-  /* .company-info {
-    position: relative;
-    left: 120px;
-  } */
-  /* .tagline {
-    position: relative;
-    left: 120px;
-  } */
   .company-info h1 {
     font-size: 15rem;
   }
   #company-image {
-    margin-bottom: 0px;
+    margin-bottom: 60px;
     width: 20vw;
   }
 }
 
 #hello {
-  display: flex;
+  display: none;
 }

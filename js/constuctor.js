@@ -16,21 +16,24 @@ window.onload = function() {
 
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
-    const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+    // const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+    const companyResponse = getLastItem(window.location.href).toLowerCase();
 
     if (companyResponse in companyInfo){
         $("#hello").css("display", "flex");
         $("#hello-li").attr("style","");
-        $("#hello-anchor").toggleClass = "active";
-        // $("#about-anchor").toggleClass = "active";
+        
 
         function company_render({name, image, position, tagLine}) {
-            $("#company-name").text=name;
-            $("#company-image").src=image;
-            $("#position").text=position;
-            $("#tagLine").text=tagLine;
+            $("#hello-anchor").addClass("active");
+            $("#company-name").append(name);
+            $("#company-image").attr("src",image);
+            $("#position").append(position);
+            $("#tagLine").append(tagLine);
         }
 
         company_render(companyInfo[companyResponse]);
+    } else {
+        $("#about-anchor").addClass("active");
     }
   }
