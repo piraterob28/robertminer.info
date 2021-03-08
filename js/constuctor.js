@@ -19,18 +19,18 @@ window.onload = function() {
     const companyResponse = getLastItem(window.location.pathname).toLowerCase();
 
     if (companyResponse in companyInfo){
-        $("#hello").style.display = "flex";
-        $("#hello-li").setAttribute("style","");
-        $("#hello-anchor").className = "nav-link js-scroll-trigger active";
-        $("#about-anchor").className = "nav-link js-scroll-trigger";
+        document.getElementById("#hello").style.display = "flex";
+        document.getElementById("#hello-li").setAttribute("style","");
+        document.getElementById("#hello-anchor").className = "nav-link js-scroll-trigger active";
+        document.getElementById("#about-anchor").className = "nav-link js-scroll-trigger";
 
         function company_render({name, image, position, tagLine}) {
-            $("#company-name").innerHTML=name;
-            $("#company-image").src=image;
-            $("#position").innerHTML=position;
-            $("#tagLine").innerHTML=tagLine;
+            document.getElementById("#company-name").innerHTML=name;
+            document.getElementById("#company-image").src=image;
+            document.getElementById("#position").innerHTML=position;
+            document.getElementById("#tagLine").innerHTML=tagLine;
         }
 
         company_render(companyInfo[companyResponse]);
     }
-}
+  }
