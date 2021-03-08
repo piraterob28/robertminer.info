@@ -26,6 +26,7 @@ window.onload = function() {
 
         function company_render({name, image, position, tagLine}) {
             $("#hello-anchor").addClass("active");
+            $("#about-anchor").removeClass("active");
             $("#company-name").append(name);
             $("#company-image").attr("src",image);
             $("#position").append(position);
