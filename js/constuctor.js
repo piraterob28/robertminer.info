@@ -17,13 +17,19 @@ window.onload = function() {
             image: "assets/img/bastian_logo.png",
             position: "Software Engineer I!",
             tagLine: "I saw that you were looking for a Software Engineer I to work with a small R&D team in Boise to produce an industry leading Mobile Robotic solution for the Material Handling Industry.  I believe I could be that developer!"
+        },
+        sel: {
+            name: "SEL",
+            image: "assets/img/sel_logo.png",
+            position: "Associate Software Engineer!",
+            tagLine: "I saw that you were seeking a professional, innovative and detail-oriented individual for your Software Engineer position with a C# and Javascript emphasis. I believe I could be that developer!"
         }
 
         };
 
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
-    const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+    const companyResponse = getLastItem(window.location.href).toLowerCase();
     
     
     if (companyResponse in companyInfo){
