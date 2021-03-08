@@ -10,13 +10,21 @@ window.onload = function() {
             name: "Scentsy",
             image: "assets/img/scentsy_logo_header.svg",
             position: "Software Development Engineer in Test!",
-            tagLine: "I saw that you were looking for an enginner to enhance and maintain your automated test framework and QA processes to ensure the delivery of a quality business application software product. I believe I could be that developer!"
+            tagLine: "I saw that you were looking for an engineer to enhance and maintain your automated test framework and QA processes to ensure the delivery of a quality business application software product. I believe I could be that developer!"
+        },
+        bastian: {
+            name: "Bastian",
+            image: "assets/img/bastian_logo.png",
+            position: "Software Engineer I!",
+            tagLine: "I saw that you were looking for a Software Engineer I to work with a small R&D team in Boise to produce an industry leading Mobile Robotic solution for the Material Handling Industry.  I believe I could be that developer!"
         }
+
         };
 
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
     const companyResponse = getLastItem(window.location.pathname).toLowerCase();
+    
     
     if (companyResponse in companyInfo){
         $("#hello").css("display", "flex");
