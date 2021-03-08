@@ -23,9 +23,14 @@ window.onload = function() {
             image: "assets/img/sel_logo.png",
             position: "Associate Software Engineer!",
             tagLine: "I saw that you were seeking a professional, innovative and detail-oriented individual for your Software Engineer position with a C# and Javascript emphasis. I believe I could be that developer!"
+        },
+        "4mile": {
+            name: "4MILE",
+            image: "assets/img/4MILE_logo.png",
+            position: "Junior Software Engineer!",
+            tagLine: "I saw that you were seeking an engineer looking for opportunities to develop their technical, leadership, and business skills. I believe I could be that developer!"
         }
-
-        };
+    };
 
     const getLastItem = thePath => thePath.substring(thePath.lastIndexOf('/') + 1);
     
