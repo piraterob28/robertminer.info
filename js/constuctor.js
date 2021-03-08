@@ -35,6 +35,12 @@ window.onload = function() {
             image: "assets/img/marketerhire_logo.png",
             position: "Junior Developer!",
             tagLine: "I saw that you were seeking an Integrations Developer, that will be assisting your tech team in maintaining, building, and conceptualizing internal automations and workflows. I believe I could be that developer!"
+        }, 
+        remesh:{
+            name: "remesh",
+            image: "assets/img/remesh_logo.png",
+            position: "Junior Software Developer in Test!",
+            tagLine: "I saw that you were seeking a Junior Software Engineer in Test, who will ensure high-quality, rapid software releases by helping with your product teams' testing strategy by implementing automated and manual regression tests for new and updated features. I believe I could be that developer!"
         }
     };
 
