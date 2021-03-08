@@ -21,6 +21,7 @@ window.onload = function() {
     if (companyResponse in companyInfo){
         document.getElementById("hello").style.display = "flex";
         document.getElementById("hello-anchor").style.display = "block";
+        document.getElementById("hello-anchor").setAttribute(class, "nav-link js-scroll-trigger active");
 
         function company_render({name, image, position, tagLine}) {
             document.getElementById("company-name").innerHTML=name;
