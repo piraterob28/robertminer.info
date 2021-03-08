@@ -22,7 +22,7 @@ window.onload = function() {
         $("#hello").css("display", "flex");
         $("#hello-li").attr("style","");
         $("#hello-anchor").toggleClass = "active";
-        $("#about-anchor").toggleClass = "active";
+        // $("#about-anchor").toggleClass = "active";
 
         function company_render({name, image, position, tagLine}) {
             $("#company-name").text=name;
