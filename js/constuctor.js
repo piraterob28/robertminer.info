@@ -47,6 +47,12 @@ window.onload = function() {
             image: "assets/img/trace_logo.png",
             position: "Intern - Junior Developer!",
             tagLine: "I saw that you were seeking a Intern - Junior Developer, who will grow with Trace by helping to develop your public website and liaise with sales to implement marketing improvements. I believe I could be that developer!"
+        },
+        survey160: {
+            name: "Survey160",
+            image: "assets/img/survey160_logo.jpg",
+            position: "Junior Software Engineer!",
+            tagLine: "I saw that you were seeking a Software Engineer to be a cornerstone member of your small but growing team. I believe I could be that developer!"
         }
     };
 
