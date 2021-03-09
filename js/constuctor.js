@@ -36,11 +36,17 @@ window.onload = function() {
             position: "Junior Developer!",
             tagLine: "I saw that you were seeking an Integrations Developer, that will be assisting your tech team in maintaining, building, and conceptualizing internal automations and workflows. I believe I could be that developer!"
         }, 
-        remesh:{
+        remesh: {
             name: "remesh",
             image: "assets/img/remesh_logo.png",
             position: "Junior Software Developer in Test!",
             tagLine: "I saw that you were seeking a Junior Software Engineer in Test, who will ensure high-quality, rapid software releases by helping with your product teams' testing strategy by implementing automated and manual regression tests for new and updated features. I believe I could be that developer!"
+        }, 
+        trace: {
+            name: "Trace",
+            image: "assets/img/trace_logo.png",
+            position: "Intern - Junior Developer!",
+            tagLine: "I saw that you were seeking a Intern - Junior Developer, who will grow with Trace by helping to develop your public website and liaise with sales to implement marketing improvements. I believe I could be that developer!"
         }
     };
 
