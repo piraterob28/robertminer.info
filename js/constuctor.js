@@ -53,6 +53,12 @@ window.onload = function() {
             image: "assets/img/survey160_logo.jpg",
             position: "Junior Software Engineer!",
             tagLine: "I saw that you were seeking a Software Engineer to be a cornerstone member of your small but growing team. I believe I could be that developer!"
+        },
+        grantstreetgroup: {
+            name: "GSG",
+            image: "assets/img/grant_street_group_logo.png",
+            position: "Software Developer Entry Level!",
+            tagLine: "I saw that you were seeking a developer that has recently begun their software development career and is eager to gain more experience. I believe I could be that developer!"
         }
     };
 
