@@ -1,23 +1,5 @@
 window.onload = function() {
     const companyInfo = {
-        liiingo: {
-            name: "Liiingo",
-            image: "assets/img/Liiingo-logo_gradient.png",
-            position: "JR. SOFTWARE DEVELOPER!", 
-            tagLine: "I saw that you were looking for a developer that is interested in growing themselves and their skillset just as fast as they possibly can. I believe I could be that developer!"
-        },
-        scentsy: {
-            name: "Scentsy",
-            image: "assets/img/scentsy_logo_header.svg",
-            position: "Software Development Engineer in Test!",
-            tagLine: "I saw that you were looking for an engineer to enhance and maintain your automated test framework and QA processes to ensure the delivery of a quality business application software product. I believe I could be that developer!"
-        },
-        bastian: {
-            name: "Bastian",
-            image: "assets/img/bastian_logo.png",
-            position: "Software Engineer I!",
-            tagLine: "I saw that you were looking for a Software Engineer I to work with a small R&D team in Boise to produce an industry leading Mobile Robotic solution for the Material Handling Industry.  I believe I could be that developer!"
-        },
         sel: {
             name: "SEL",
             image: "assets/img/sel_logo.png",
