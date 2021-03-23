@@ -59,6 +59,12 @@ window.onload = function() {
             image: "assets/img/grant_street_group_logo.png",
             position: "Software Developer Entry Level!",
             tagLine: "I saw that you were seeking a developer that has recently begun their software development career and is eager to gain more experience. I believe I could be that developer!"
+        }, 
+        chainlinklabs: {
+            name: "Chainlink Labs",
+            image: "assets/img/chainlink_labs_logo.jpg",
+            position: "Junior Software Engineer!",
+            tagLine: "I saw that you were seeking a developer that will collaborate with the companys experienced technical team of senior engineers, distributed systems computing experts and security experts, building a world-changing decentralized infrastructure. I believe I could be that developer!"
         }
     };
 
