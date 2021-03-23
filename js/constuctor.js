@@ -47,6 +47,12 @@ window.onload = function() {
             image: "assets/img/chainlink_labs_logo.jpg",
             position: "Junior Software Engineer!",
             tagLine: "I saw that you were seeking a developer that will collaborate with the companys experienced technical team of senior engineers, distributed systems computing experts and security experts, building a world-changing decentralized infrastructure. I believe I could be that developer!"
+        },
+        pagerduty: {
+            name: "PagerDuty",
+            image: "assets/img/pagerduty_logo.png",
+            position: "Software Developer Intern !",
+            tagLine: "I saw that you were seeking a developer for your Career Accelerator Program to get the opportunity to learn and build meaningful skills at PagerDuty. I believe I could be that developer!"
         }
     };
 
