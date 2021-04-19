@@ -53,6 +53,12 @@ window.onload = function() {
             image: "assets/img/pagerduty_logo.png",
             position: "Software Developer Intern !",
             tagLine: "I saw that you were seeking a developer for your Career Accelerator Program to get the opportunity to learn and build meaningful skills at PagerDuty. I believe I could be that developer!"
+        },
+        storj: {
+            name: "Storj Labs",
+            image: "assets/img/storj-white-logo.svg",
+            position: "Software Engineer Intern!",
+            tagLine: "I saw that you were seeking a developer for your 2021 Internship Program. . I believe I could be that developer!"
         }
     };
 
