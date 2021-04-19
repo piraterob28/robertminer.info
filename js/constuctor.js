@@ -58,7 +58,13 @@ window.onload = function() {
             name: "Storj Labs",
             image: "assets/img/storj-labs-logo.jpg",
             position: "Software Engineer Intern!",
-            tagLine: "I saw that you were seeking a developer for your 2021 Internship Program. . I believe I could be that developer!"
+            tagLine: "I saw that you were seeking a developer for your 2021 Internship Program. I believe I could be that developer!"
+        },
+        simplot: {
+            name: "Simplot",
+            image: "assets/img/simplot.jpg",
+            position: "Delivery Engineer Intern!",
+            tagLine: "I saw that you were seeking someone that has a passion for technology and wants to gain real experience working on a team that develops technical solutions using cloud-based technologies. I believe I could be that developer!"
         }
     };
 
