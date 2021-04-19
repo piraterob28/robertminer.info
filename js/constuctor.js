@@ -71,6 +71,12 @@ window.onload = function() {
             image: "assets/img/dimagi_logo.png",
             position: "Software Engineer Intern!",
             tagLine: "I saw that you were seeking someone that will have the opportunity to grow their skillset as well as make a real impact across the world. I believe I could be that developer!" 
+        },
+        visitpay: {
+            name: "VisitPay",
+            image: "assets/img/VisitPay_logo.jpg",
+            position: "Junior Developer / Software Engineer I!",
+            tagLine: "I saw that you were seeking someone that thrives on challenges, loves learning, is self-driven, diligent, and enjoys solving problems and wants to be part of a high-growth, high-innovation company that is revolutionizing the healthcare market. I believe I could be that developer!"  
         }
     };
 
