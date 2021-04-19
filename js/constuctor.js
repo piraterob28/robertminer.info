@@ -56,7 +56,7 @@ window.onload = function() {
         },
         storj: {
             name: "Storj Labs",
-            image: "assets/img/storj-white-logo.jpg",
+            image: "assets/img/storj-labs-logo.jpg",
             position: "Software Engineer Intern!",
             tagLine: "I saw that you were seeking a developer for your 2021 Internship Program. . I believe I could be that developer!"
         }
