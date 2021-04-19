@@ -65,6 +65,12 @@ window.onload = function() {
             image: "assets/img/simplot.jpg",
             position: "Delivery Engineer Intern!",
             tagLine: "I saw that you were seeking someone that has a passion for technology and wants to gain real experience working on a team that develops technical solutions using cloud-based technologies. I believe I could be that developer!"
+        },
+        dimagi: {
+            name: "Dimagi",
+            image: "assets/img/dimagi_logo.png",
+            position: "Software Engineer Intern!",
+            tagLine: "I saw that you were seeking someone that will have the opportunity to grow their skillset as well as make a real impact across the world. I believe I could be that developer!" 
         }
     };
 
