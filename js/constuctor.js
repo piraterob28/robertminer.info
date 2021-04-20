@@ -95,6 +95,12 @@ window.onload = function() {
             image: "assets/img/filly-coder.jpg",
             position: "Entry Level Web Developer!",
             tagLine: "I saw that you were seeking someone who is interested in your Entry Level Web Developer. I believe I could be that developer!"
+        },
+        rightpoint: {
+            name: "Rightpoint",
+            image: "assets/img/rightpoint.png",
+            position: "Associate UI Developer!",
+            tagLine: "I saw that you were seeking someone to start their careers working with and learning from top-notch, talented consults building solutions for our many clients, who would move past HTML/CSS and into application development using Angular or React within a year of joining. I believe I could be that developer!"
         }
     };
 
