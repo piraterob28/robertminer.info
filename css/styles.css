@@ -10532,7 +10532,7 @@ section.resume-section .resume-section-content {
   }
 }
 .company-info h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   position: relative;
   bottom: 80px;
   padding-top: 50px;
@@ -10555,7 +10555,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 960px) {
   .company-info h1 {
-    font-size: 15rem;
+    font-size: 10rem;
   }
   #company-image {
     margin-bottom: 60px;
