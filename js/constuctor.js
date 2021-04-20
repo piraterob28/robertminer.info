@@ -107,6 +107,12 @@ window.onload = function() {
             image: "assets/img/venafi_logo.png",
             position: "Python Software Developer in Test!",
             tagLine: "I saw that you were seeking someone with a can do attitude and a thirst to just dig in and figure out the hard things. I believe I could be that developer!"
+        },
+        lovingly: {
+            name: "Lovingly",
+            image: "assets/img/Lovingly_logo_blue.svg",
+            position: "Jr. Full Stack Software Engineer!",
+            tagLine: "I saw that you were seeking someone whp has a healthy work ethic, welcomes challenges, and enjoys being part of a company that works together as a team. They don’t give up when it seems like their facing a wall—they brainstorm, research, learn, and solve. I believe I could be that developer!"
         }
     };
 
