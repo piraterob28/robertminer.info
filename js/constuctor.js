@@ -77,6 +77,12 @@ window.onload = function() {
             image: "assets/img/VisitPay_logo.jpg",
             position: "Junior Developer / Software Engineer I!",
             tagLine: "I saw that you were seeking someone that thrives on challenges, loves learning, is self-driven, diligent, and enjoys solving problems and wants to be part of a high-growth, high-innovation company that is revolutionizing the healthcare market. I believe I could be that developer!"  
+        },
+        juniper: {
+            name: "Juniper",
+            image: "assets/img/juniper-networks.png",
+            position: "Software Engineer Intern!",
+            tagLine: "I saw that you were seeking someone who is looking for the opportunity to apply their math and programming skills to solve real-life problems such as COVID Contact Tracing, while learning how to build massively scalable microservices using state-of-the-art cloud technologies such as Kafka, ElasticSearch and Kubernetes. I believe I could be that developer!" 
         }
     };
 
