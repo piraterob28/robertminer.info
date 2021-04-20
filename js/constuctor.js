@@ -83,6 +83,12 @@ window.onload = function() {
             image: "assets/img/juniper-networks.png",
             position: "Software Engineer Intern!",
             tagLine: "I saw that you were seeking someone who is looking for the opportunity to apply their math and programming skills to solve real-life problems such as COVID Contact Tracing, while learning how to build massively scalable microservices using state-of-the-art cloud technologies such as Kafka, ElasticSearch and Kubernetes. I believe I could be that developer!" 
+        }, 
+        salesforce: {
+            name: "Salesforce",
+            image: "assets/img/salesforce.jpg",
+            position: "Site Reliability Engineer!",
+            tagLine: "I saw that you were seeking someone who is interested in complex distributed systems- how they work, how they can work better, how we even know if they’re working at all. I believe I could be that developer!"
         }
     };
 
