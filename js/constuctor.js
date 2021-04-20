@@ -101,6 +101,12 @@ window.onload = function() {
             image: "assets/img/rightpoint.png",
             position: "Associate UI Developer!",
             tagLine: "I saw that you were seeking someone to start their careers working with and learning from top-notch, talented consults building solutions for our many clients, who would move past HTML/CSS and into application development using Angular or React within a year of joining. I believe I could be that developer!"
+        },
+        venafi: {
+            name: "Venafi",
+            image: "assets/img/venafi_logo.png",
+            position: "Python Software Developer in Test!",
+            tagLine: "I saw that you were seeking someone with a can do attitude and a thirst to just dig in and figure out the hard things. I believe I could be that developer!"
         }
     };
 
