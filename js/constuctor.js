@@ -89,6 +89,12 @@ window.onload = function() {
             image: "assets/img/salesforce.jpg",
             position: "Site Reliability Engineer!",
             tagLine: "I saw that you were seeking someone who is interested in complex distributed systems- how they work, how they can work better, how we even know if they’re working at all. I believe I could be that developer!"
+        },
+        salesforce: {
+            name: "Filly Coder",
+            image: "assets/img/filly-coder.jpg",
+            position: "Entry Level Web Developer!",
+            tagLine: "I saw that you were seeking someone who is interested in your Entry Level Web Developer. I believe I could be that developer!"
         }
     };
 
