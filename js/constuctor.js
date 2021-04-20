@@ -112,7 +112,13 @@ window.onload = function() {
             name: "Lovingly",
             image: "assets/img/Lovingly_logo_blue.svg",
             position: "Jr. Full Stack Software Engineer!",
-            tagLine: "I saw that you were seeking someone whp has a healthy work ethic, welcomes challenges, and enjoys being part of a company that works together as a team. They don’t give up when it seems like their facing a wall—they brainstorm, research, learn, and solve. I believe I could be that developer!"
+            tagLine: "I saw that you were seeking someone who has a healthy work ethic, welcomes challenges, and enjoys being part of a company that works together as a team. They don’t give up when it seems like their facing a wall—they brainstorm, research, learn, and solve. I believe I could be that developer!"
+        },
+        infinicept: {
+            name: "Infinicept",
+            image: "assets/img/infinicept-logo-rgb.png",
+            position: "Junior Software Engineer!",
+            tagLine: "I saw that you were seeking someone won’t shy away from bringing their unique experiences and values to their role as a junior engineer. They are fearless and will dive headfirst into unfamiliar problems. I believe I could be that developer!"
         }
     };
 
