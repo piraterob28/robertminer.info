@@ -10539,7 +10539,8 @@ section.resume-section .resume-section-content {
 .project-image { 
   height: 200px;
   width: 100px;
-  border-radius: 15px;
+  border-radius: 13px;
+  margin: 0 10px
 }
 
 @media (min-width: 768px) {
