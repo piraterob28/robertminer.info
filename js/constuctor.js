@@ -24,11 +24,11 @@ window.onload = function() {
             $("#company-image").attr("src",image);
             $("#position").append(position);
             $("#tagLine").append(tagLine);
-            $("#page-title").append(name);
+            document.title(name);
         }
         company_render(companyInfo[companyResponse]);
     } else {
         $("#about-anchor").addClass("active");
-        $("#page-title").append("Robert Miner");
+        document.title("Robert Miner");
     }
   }
