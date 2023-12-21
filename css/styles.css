@@ -10570,6 +10570,8 @@ section.resume-section .resume-section-content {
 .company-info {
   width: 100%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .tagline {
@@ -10579,6 +10581,7 @@ section.resume-section .resume-section-content {
 #company-image {
 display: inline;
 height: 5rem;
+margin-left: 2rem;
 }
 
 @media (min-width: 960px) {
