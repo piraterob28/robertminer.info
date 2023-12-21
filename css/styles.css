@@ -10525,14 +10525,21 @@ section.resume-section .resume-section-content {
 
 .project-list {
   width: '100%';
-  background-color: 'red';
+  
 }
 
 .project-images {
   width: '100%';
-  background-color: 'green';
   display: flex;
-  flex-direction: column;
+  padding: 0 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-image { 
+  height: 200px;
+  width: 100px;
+  border-radius: 15px;
 }
 
 @media (min-width: 768px) {
