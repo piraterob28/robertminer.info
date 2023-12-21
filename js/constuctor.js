@@ -33,11 +33,11 @@ window.onload = function() {
             $("#position").append(position);
             $("#tagLine").append(tagLine);
             $("#company-trait-text-1").append(traits.trait_1)
-            $("#company-trait-image-1").src = traits.image_1
+            $("#company-trait-image-1").src = traits[image_1]
             $("#company-trait-text-2").append(traits.trait_2)
-            $("#company-trait-image-2").src = traits.image_2
+            $("#company-trait-image-2").src = traits[image_2]
             $("#company-trait-text-3").append(traits.trait_3)
-            $("#company-trait-image-3").src = traits.image_3
+            $("#company-trait-image-3").src = traits[image_3]
         }
         company_render(companyInfo[companyResponse]);
     } else {
