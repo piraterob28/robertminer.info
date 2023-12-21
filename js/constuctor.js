@@ -5,11 +5,11 @@ window.onload = function() {
             image: "assets/img/sel_logo.png",
             position: "Associate Software Engineer!",
             traits: {
-                trait_1: "Blah Blah Blah Blah Blah Blah",
+                trait_1: "Blah Blah Blah Blah Blah Blah 1",
                 image_1: "assets/img/sel_logo.png",
-                trait_2: "Blah Blah Blah Blah Blah Blah",
+                trait_2: "Blah Blah Blah Blah Blah Blah 2 ",
                 image_2: "assets/img/sel_logo.png",
-                trait_3: "Blah Blah Blah Blah Blah Blah",
+                trait_3: "Blah Blah Blah Blah Blah Blah 3",
                 image_3: "assets/img/sel_logo.png",
             },
             tagLine: "I saw that you were seeking a professional, innovative and detail-oriented individual for your Software Engineer position with a C# and Javascript emphasis. I believe I could be that developer!"
@@ -33,11 +33,11 @@ window.onload = function() {
             $("#position").append(position);
             $("#tagLine").append(tagLine);
             $("#company-trait-text-1").append(traits.trait_1)
-            $("#company-trait-image-1").src = traits.image_1
+            $("#company-trait-image-1").attr("src",traits.image_1)
             $("#company-trait-text-2").append(traits.trait_2)
-            $("#company-trait-image-2").src = traits.image_2
+            $("#company-trait-image-2").attr("src",traits.image_2)
             $("#company-trait-text-3").append(traits.trait_3)
-            $("#company-trait-image-3").src = traits.image_3
+            $("#company-trait-image-3").attr("src",traits.image_3)
         }
         company_render(companyInfo[companyResponse]);
     } else {
