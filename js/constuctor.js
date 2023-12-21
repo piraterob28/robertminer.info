@@ -24,11 +24,9 @@ window.onload = function() {
             $("#company-image").attr("src",image);
             $("#position").append(position);
             $("#tagLine").append(tagLine);
-            document.title = name;
         }
         company_render(companyInfo[companyResponse]);
     } else {
         $("#about-anchor").addClass("active");
-        document.title = "Robert Miner";
     }
   }
