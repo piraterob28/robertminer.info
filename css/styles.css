@@ -10604,6 +10604,11 @@ margin-left: 2rem;
 
 .company-trait-text {
   font-weight: 400;
+  text-transform: capitalize;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 #hello {
