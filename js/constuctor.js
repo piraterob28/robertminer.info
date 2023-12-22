@@ -6,11 +6,11 @@ window.onload = function() {
             position: "Associate Software Engineer!",
             traits: {
                 trait_1: "Blah Blah Blah Blah Blah Blah 1",
-                image_1: "assets/img/sel_logo.png",
+                image_1: "assets/img/Done_all_round_fill.svg",
                 trait_2: "Blah Blah Blah Blah Blah Blah 2 ",
-                image_2: "assets/img/sel_logo.png",
+                image_2: "assets/img/thumb_up.svg",
                 trait_3: "Blah Blah Blah Blah Blah Blah 3",
-                image_3: "assets/img/sel_logo.png",
+                image_3: "assets/img/Trophy.svg",
             },
             tagLine: "I saw that you were seeking a professional, innovative and detail-oriented individual for your Software Engineer position with a C# and Javascript emphasis. I believe I could be that developer!"
         },
