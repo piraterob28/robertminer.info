@@ -10602,6 +10602,10 @@ margin-left: 2rem;
     height: 1.5rem;
 }
 
+.company-trait-text {
+  font-weight: 400;
+}
+
 #hello {
   display: none;
 }
