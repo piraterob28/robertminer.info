@@ -10529,6 +10529,13 @@ section.resume-section .resume-section-content {
   flex-direction: row;
 }
 
+@media (max-width: 600px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .project-list {
   width: '100%';
   
@@ -10593,9 +10600,6 @@ height: 5rem;
 margin-left: 2rem;
 }
 
-@media (min-width: 960px) {
- 
-}
 
 .company-trait-container {
   display: flex;
