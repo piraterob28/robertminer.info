@@ -10537,14 +10537,21 @@ section.resume-section .resume-section-content {
 .project-images {
   width: '100%';
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-image-container {
+  width: '100%';
+  display: flex;
   padding: 0 10px;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .project-image { 
-  height: 200px;
-  width: 100px;
+  height: 300px;
+  width: 150px;
   border-radius: 13px;
   margin: 0 10px
 }
