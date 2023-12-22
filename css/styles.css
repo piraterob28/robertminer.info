@@ -10590,6 +10590,18 @@ margin-left: 2rem;
  
 }
 
+.company-trait-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+
+.company-trait-image {
+    height: 1.5rem;
+}
+
 #hello {
   display: none;
 }
